@@ -2,5 +2,4 @@ streamlit_app/
 data/
 models/
 notebooks/
-requirements.txt
-.python-version
+src/
