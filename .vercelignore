@@ -1,0 +1,6 @@
+app/
+data/
+models/
+notebooks/
+requirements.txt
+.python-version

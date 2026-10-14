@@ -1414,3 +1414,9 @@ elif page == "🗺️ Geo Intelligence":
             use_container_width=True,
             height=500,
         )
+
+# Vercel entrypoint compatibility
+def handler(request=None, *args, **kwargs):
+    return {"status": "ok"}
+app = handler
+application = handler
