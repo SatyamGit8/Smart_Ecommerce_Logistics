@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw Data (Too large for GitHub)
+data/raw/
+
+# Intermediate processed datasets (only master_dataset.csv is needed for the app)
+data/processed/classification_dataset.csv
+data/processed/regression_dataset.csv
+data/processed/customers_clean.csv
+data/processed/delivered_orders_clean.csv
+data/processed/order_items_clean.csv
+data/processed/payments_clean.csv
+data/processed/products_clean.csv
+data/processed/reviews_clean.csv
+data/processed/sellers_clean.csv
+
+# IDE & temporary
+.vscode/
+.idea/
+*.log
+
+*.bak
